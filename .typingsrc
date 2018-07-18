@@ -1,0 +1,2 @@
+proxy="http://bbproxy:M0nd1al@172.31.250.200:8080/"
+rejectUnauthorized=false
