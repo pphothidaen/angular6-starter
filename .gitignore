@@ -1,0 +1,82 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+/out
+
+# dependencies
+/node_modules
+/jspm_packages
+package-lock.json
+
+# Cordova
+/www
+/plugins
+/platforms
+
+# IDEs and editors
+/.idea
+.idea/*
+!.idea/runConfigurations/
+!.idea/codeStyleSettings.xml
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+xcuserdata/
+.idea_modules/
+
+# Maven
+/target
+/log
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+
+# Misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+*.log
+/typings
+/reports
+/src/translations/template.*
+/src/environments/.env.*
+npm-debug.log
+testem.log
+/src/environments/.env.json
+
+# E2E
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# File-based project format:
+*.iws
+
+# Thumbnails
+._*
